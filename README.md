@@ -11,5 +11,5 @@ $(call inherit-product, packages/apps/LogFox/config.mk)
 - Clone
 
 ```sh
-git clone https://github.com/Maloy-Android/packages_apps_LogFox packages/apps/LogFox
+git clone https://github.com/ReStranger/packages_apps_LogFox.git packages/apps/LogFox
 ```
