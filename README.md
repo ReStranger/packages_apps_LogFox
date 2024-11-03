@@ -5,8 +5,14 @@
 - Add this in **device.mk**:
 
 ```sh
+# LogFox
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-logfox.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-logfox.xml
+
 $(call inherit-product, packages/apps/LogFox/config.mk)
 ```
+
+- Copy `configs` folder to <device-tree>
 
 - Clone
 
